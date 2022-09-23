@@ -16,6 +16,8 @@ namespace Noppapeli
 
     // Lähde tekemään Yatzi-peli
 
+    // Lisää nopalle kuvat 1-6
+
     public partial class Form1 : Form
     {
         // property
