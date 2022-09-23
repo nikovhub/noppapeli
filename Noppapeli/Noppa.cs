@@ -17,6 +17,7 @@ namespace Noppapeli
         {
             Koko = koko;
             Heitto();
+            Heitto();
         }
         public void Heitto()
         {
