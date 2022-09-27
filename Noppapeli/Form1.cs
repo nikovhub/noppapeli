@@ -84,12 +84,18 @@ namespace Noppapeli
             jokuNoppa.Boxi.Location = new Point(13 + Luku * spacing, 13);
         }
 
+        // lista:
+        // 0 noppa  .luku
+        // 1 noppa  .luku
+        // 2 noppa  .luku
+        // 3 noppa  .luku
+        //4  noppa  .luku
         private void button2_Click(object sender, EventArgs e)
         {
             int ones = 0;
             for (var i = 0; i < Nopat.Count; i++)
             {
-                if(i == 1)
+                if(Nopat[i].Luku == 1)
                 {
                     ones += 1;
                 }
